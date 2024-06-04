@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+/* *****共通設定***** */
+
+a { 
+  color: rgb(90, 85, 78);
+  text-decoration: underline;
+  text-decoration-thickness: 0.5em;
+  text-decoration-color: paleturquoise;
+  text-underline-offset: -0.2em;
+  text-decoration-skip-ink: none;
+}
+
+a:hover {
+  color: rgb(90, 85, 78);
+  text-decoration: underline;
+  text-decoration-thickness: 0.5em;
+  text-underline-offset: -0.2em;
+  text-decoration-skip-ink: none;
+  text-decoration-color: lightpink;
+}
+#spoilerBtn {
+  cursor: pointer;
+  color: rgb(90, 85, 78);
+  text-decoration: underline;
+  text-decoration-thickness: 0.5em;
+  text-decoration-color: paleturquoise;
+  text-underline-offset: -0.2em;
+  text-decoration-skip-ink: none;
+}
+#spoilerBtn:hover {
+  color: rgb(90, 85, 78);
+  text-decoration: underline;
+  text-decoration-thickness: 0.5em;
+  text-underline-offset: -0.2em;
+  text-decoration-skip-ink: none;
+  text-decoration-color: lightpink;
+}
+
+body{
+  color: rgb(90, 85, 78);
+  background-image: url(img/line.png); 
+  background-repeat:repeat-y;
+  background-position:right bottom;
+  font-family: 'Kaisei Opti', bold;
+}
+
+div.detail{
+  margin: 1em auto;
+  padding: 1em ;
+  background-color:snow;
+  width:90%;
+  max-width:800px;
+  border-radius:8px;  
+}
+H3{
+  font-size: 1.2em;
+}
+
+.credit{
+  font-size: 0.4em;
+  color: gainsboro;
+}
+
+
+p.move{
+  font-size: 1.2em;
+}
+
+.spoiler{
+	display:none;
+	margin:0 auto;
+}
+.hideBtn{
+	background-color:  gainsboro;
+	cursor: pointer;
+  color: rgb(90, 85, 78);
+}
+.hideBtn:hover {
+  outline:2px solid gainsboro;
+  background-color:snow;
+}
+.hideout{
+	background-color:  gainsboro;
+	cursor: pointer;
+  color: rgb(90, 85, 78);
+}
+.hideout:hover {
+  outline:2px solid gainsboro;
+  background-color:snow;
+}
+
+html.toppage{
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/sdKV.png);
+background-size: cover;
+  background-position:center;
+}
+body.toppage{
+  background-image: none; 
+  background-color:transparent;
+  z-index: 1;
+  color:snow;
+}
+
+html.secret{
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/sdsec.png);
+background-size: cover;
+  background-position:center;
+}
+html.end-a{
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/sdsedA.png);
+  background-repeat:no-repeat;
+  background-position:center bottom;
+}
+
+html.end-b{
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/sdsedB.png);
+  background-repeat:no-repeat;
+  background-position:center bottom;
+}
+
+body.end{
+  background-image: none; 
+  background-color:transparent;
+  z-index: 1;
+  color:snow;
+}
+
+html.end-sugar{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/endBG_01.png);
+	background-repeat:repeat;
+	background-position:center;
+  min-height:880px;
+}
+
+html.end-salt{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/endBG_02.png);
+	background-repeat:repeat;
+	background-position:center;
+  min-height:880px;
+}
+
+html.end-ginger{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/endBG_03.png);
+	background-repeat:repeat;
+	background-position:center;
+  min-height:880px;
+}
+
+html.end-honey{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/endBG_04.png);
+	background-repeat:repeat;
+	background-position:center;
+  min-height:880px;
+}
+
+html.end-butter{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/endBG_05.png);
+	background-repeat:no-repeat;
+	background-position:center;
+  min-height:880px;
+}
+
+.menua { 
+  text-decoration: none;
+  color: snow;
+}
+.menua:hover { 
+  text-decoration: none;
+  color: #5fedf2;
+}
+#menu{
+  z-index: 20;
+  color:snow;
+  min-height:880px;
+}
+
+
+body.sugar{
+  background-color:#5c335e;
+}
+body.salt{
+  background-color:#105e54;
+}
+body.ginger{
+  background-color:#0d2a7f;
+}
+body.honey{
+  background-color:#9e5a06;
+}
+body.butter{
+  background-color:#880d11;
+}
+body.base{
+  background-color:gainsboro;
+}
+
+
+input[type="button"] {
+  border:none;
+  background-color:  gainsboro;
+  cursor: pointer;
+  background-image:url(img/lock.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  border-radius:8px;  
+  width:6em;
+  height:4em;
+}
+input[type="button"]:hover {
+  outline:2px solid gainsboro;
+  background-color:snow;
+}
+
+form{
+  margin: 1em auto;
+  width:90%;
+  height:;
+  max-width:800px;
+}
+textarea[name="text"]{
+  outline:2px solid slategray;
+  border:none;
+  padding: 1em ;
+  background-color:ghostwhite;
+  width:100%;
+  min-height:400px;
+  resize:none;
+  border-radius:8px;
+}
+textarea[name="text"]::-webkit-scrollbar {
+  width:1em;
+  background:lightsteelblue;
+}
+ 
+textarea[name="text"]::-webkit-scrollbar-thumb {
+  background:slategray;
+  border-radius:4px;
+}
